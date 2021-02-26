@@ -1,0 +1,31 @@
+##OpenGL GLIB
+
+Perspective 70
+LookAt 0 0 3  0 0 0  0 1 0
+
+
+Vertex   Cat.vert
+Fragment Cat.frag
+Program  Cat			\
+    uNoiseAmp <0. 0. 3.>  	\
+	uNoiseFreq <0. 1. 10.>  \
+    uStripes <0. 0. 30.> \
+    uHillSmoothness <0. 1. 14.> \
+    uLightX <-10. 0. 10.>	\
+	uLightY <-10. 0. 10.>	\
+	uLightZ <-10. 5. 10.>	\
+	uKa <0. .2 1.>			\
+	uKd <0. .5 1.>			\
+	uKs <0. .4 1.>			\
+	uShininess <.01 4. 10.>	\
+	uFlat 		<0. 0. 1.>	\
+	uSpecularColor {1. 1. 1. 1.}	\
+    onlySnow <0. .15 1.> \
+    snowBlend <0. .4 1.>    \
+    onlyMountain <0. 4. 1.> \
+    mountainBlend <0. .8 1.>  \
+    waterMix <0. .4 1.>    
+
+	
+Obj catH.obj
+
